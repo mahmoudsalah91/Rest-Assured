@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Function">
+    <listeners>
+        <listener class-name="day_9.utilities.ExtentReportUtility"/>
+    </listeners>
+    <test name="API Test">
+        <classes>
+            <class name="day_9.test.TestsWithPropertiesFile"/>
+        </classes>
+    </test>
+</suite>
